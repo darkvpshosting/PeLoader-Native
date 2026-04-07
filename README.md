@@ -1,4 +1,5 @@
-'''asm
+```asm
+
 s_Asm = s_Asm & "4157"                           '0:: push   r15
 s_Asm = s_Asm & "4156"                           '2:: push   r14
 s_Asm = s_Asm & "56"                             '4:: push   rsi
@@ -131,4 +132,4 @@ s_Asm = s_Asm & "415e"                           '1c2:: pop    r14
 s_Asm = s_Asm & "415f"                           '1c4:: pop    r15
 s_Asm = s_Asm & "48ffe0"                         '1c6:: rex.W jmp rax
 
-'''
+```
